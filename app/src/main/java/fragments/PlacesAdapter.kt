@@ -30,7 +30,7 @@ class PlacesAdapter(
         val placeLocation: TextView = view.findViewById(R.id.placeLocation)
         val placeImage: ImageView = view.findViewById(R.id.placeImage)
         val placeButton: Button = view.findViewById(R.id.placeInfoBtn)
-        
+
     }
 
 

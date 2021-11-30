@@ -33,4 +33,15 @@
     <string name="fecha">Fecha</string>
     <string name="comentario">Comentario</string>
 
+    //Spinner
+    <string-array name="planets_array">
+        <item>Parque fundidora</item>
+        <item>Paseo Santa Lucia</item>
+        <item>Grutas de Garcia</item>
+        <item>Grutas de Bustamante</item>
+        <item>Zoologico la Pastora</item>
+        <item>Museo Del noreste</item>
+        <item>Cascada Cola de caballo</item>
+    </string-array>
+
 </resources>
