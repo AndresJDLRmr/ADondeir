@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="18dp"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_user"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate Aquí"
+        android:textSize="32dp"
+        />
+   <EditText
+       android:id="@+id/emailEditText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Correo Electrónico"
+       android:layout_marginBottom="18dp"
+       android:padding="12dp"
+       android:fontFamily="sans-serif-black"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:layout_marginBottom="18dp"
+        android:padding="12dp"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/emailConfirmationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Contraseña"
+        android:layout_marginBottom="18dp"
+        android:padding="12dp"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/emailRegisterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Regitrarse"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"/>
+
+</LinearLayout>

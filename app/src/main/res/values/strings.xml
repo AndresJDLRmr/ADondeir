@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">A donde Ir Nuevo Leon</string>
+    <string name="title_activity_home">Inicio</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="fundidoraName"> Parque Fundidora</string>
+    <string name="fundidoraHorario"> Abierto todos los días de 06:00 a 22:00 horas</string>
+    <string name="fundidoraLugar"> Av. Fundidora y Adolfo Prieto s/n Col. Obrera.</string>
+    <string name="colaDeCaballoName"> Cascada Cola de Caballo</string>
+    <string name="colaDeCaballoHorario"> Martes a Domingo de 09:00 a 18:00 horas</string>
+    <string name="colaDeCaballoLugar">Carr. a la Cola de Caballo S/N, Cieneguilla, 67300 Santiago, N.L.</string>
+    <string name="zoologicoName"> Zoologico la Pastora</string>
+    <string name="zoologicoHorario">Martes a Domingo de 09:00 a 18:00 horas</string>
+    <string name="zoologicoLugar"> Av. Pablo Livas s/n Col. Jardines de La Pastora Guadalupe, Nuevo León C.P 67140</string>
+    <string name="santaLuciaName"> Parque Fundidora</string>
+    <string name="santaLuciaHorario"> Abierto todos los días de 06:00 a 22:00 horas</string>
+    <string name="santaLuciaLugar"> Av. Fundidora y Adolfo Prieto s/n Col. Obrera.</string>
+    <string name="muneName"> Cascada Cola de Caballo</string>
+    <string name="muneHorario"> Martes a Domingo de 09:00 a 18:00 horas</string>
+    <string name="muneLugar">Diego de Montemayor 510 Sur Col. Centro</string>
+    <string name="huastecaName"> La Huasteca</string>
+    <string name="huastecaHorario">Abierto las 24 horas</string>
+    <string name="huastecaLugar">Santa Catarina De La Huasteca, Parques la Fama, 66196 Ciudad Santa Catarina</string>
+    <string name="grutasName"> Grutas de Garcia</string>
+    <string name="grutasHorario"> Lunes a domingo 9:00am a 5:00pm</string>
+    <string name="grutasLugar">Carretera a Villa de García S/N Parque Grutas de, 66030 García, N.L.</string>
+    <string name="bustamenteName"> Grutas de Bustamante </string>
+    <string name="bustamanteHorario">Lunes a domingo 9:00am a 5:00pm</string>
+    <string name="bustamanteLugar">Juan Gòmez a. S/N, 65150 Bustamante, N.L.</string>
+
+    //Formulario
+    <string name="lugar">Lugar</string>
+    <string name="fecha">Fecha</string>
+    <string name="comentario">Comentario</string>
+
+</resources>
