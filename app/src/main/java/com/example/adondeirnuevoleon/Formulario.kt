@@ -20,7 +20,6 @@ class Formulario : AppCompatActivity() {
         val addComentBtn: Button = findViewById<Button>(R.id.btnRegitroComentario)
         val dateText: EditText = findViewById<EditText>(R.id.editTextDate)
         val commentText: EditText = findViewById<EditText>(R.id.commentEditText)
-
         //spinner
         val spinner: Spinner = findViewById(R.id.spinner)
         // Create an ArrayAdapter using the string array and a default spinner layout

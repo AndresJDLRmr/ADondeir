@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_clock"
+        android:drawableLeft="@drawable/ic_location"
         android:text="Ubicacion"
         android:textSize="18dp"
         android:layout_marginBottom="5dp"/>
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
-        android:text="5:00 - 22:00"
+        android:text="Av Revolucion 1010"
         android:layout_marginBottom="5dp"/>
 
     <Button

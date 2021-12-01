@@ -40,7 +40,7 @@ class HomeFragment : Fragment() {
         return rootView
 
 
-        return inflater.inflate(com.example.adondeirnuevoleon.R.layout.fragment_home, container, false)
+        //return inflater.inflate(com.example.adondeirnuevoleon.R.layout.fragment_home, container, false)
     }
 
 

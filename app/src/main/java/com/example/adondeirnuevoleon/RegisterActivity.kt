@@ -27,13 +27,19 @@ class RegisterActivity : AppCompatActivity() {
 
             var email = emailText.text.toString()
             var password = passText.text.toString()
-            auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(this){ task ->
-                if (task.isSuccessful){
-                    val intent = Intent(this, HomeActivity::class.java)
-                    startActivity(intent)
+            var passwordConfirmation = confPassText.text.toString()
+            if (password == passwordConfirmation){
+
+                auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(this){ task ->
+                    if (task.isSuccessful){
+                        val intent = Intent(this, HomeActivity::class.java)
+                        startActivity(intent)
+                    }
+
                 }
 
             }
+
 
 
     }
