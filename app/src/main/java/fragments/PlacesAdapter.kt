@@ -9,6 +9,8 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.adondeirnuevoleon.ClimaActivity
+import com.example.adondeirnuevoleon.Formulario
+import com.example.adondeirnuevoleon.HomeActivity
 import com.example.adondeirnuevoleon.R
 import data.Places
 
@@ -54,11 +56,18 @@ class PlacesAdapter(
         holder.placeHour.text = context.resources.getString(item.placeHour)
         holder.placeLocation.text = context.resources.getString(item.placeLocation)
         holder.placeImage.setImageResource(item.placeImage)
+        holder.placeButton.setOnClickListener {
+            openFormularioOpinion()
+        }
+    }
+
+    private fun openFormularioOpinion() {
+        val formularioIntent = Intent(this.context, Formulario::class.java)
+        startActivity(this.context, formularioIntent,null)
     }
 
 
-    /**
-     * Return the size of your dataset (invoked by the layout manager)
-     */
+
+
     override fun getItemCount() = dataset.size
 }

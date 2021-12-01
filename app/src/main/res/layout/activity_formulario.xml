@@ -13,6 +13,7 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="100dp"
         android:text="@string/lugar"
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -29,14 +30,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/edit_nombre"
+        android:id="@+id/commentEditText"
         android:layout_width="261dp"
         android:layout_height="45dp"
         android:layout_marginStart="22dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="128dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +50,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="100dp"
         android:text="@string/fecha"
+        android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -56,6 +58,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="18dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="68dp"
         android:text="@string/comentario"
@@ -67,9 +70,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="134dp"
         android:layout_marginTop="33dp"
-        android:layout_marginEnd="135dp"
+        android:textSize="32dp"
         android:text="Registra tu comentario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,14 +81,11 @@
         android:id="@+id/btnRegitroComentario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
         android:layout_marginTop="220dp"
-        android:layout_marginEnd="119dp"
         android:text="Registrar comentario"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_nombre" />
+        app:layout_constraintTop_toBottomOf="@+id/commentEditText" />
 
     <EditText
         android:id="@+id/editTextDate"
